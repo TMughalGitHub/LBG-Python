@@ -2,8 +2,6 @@
 Sample unit test "testcase" for LBG API functionality
 Tests key functions and API routes in isolation from client-side user interface
 
-New comment added for testing Task 2 of sprint 1
-
 For full list of assertions available: https://docs.python.org/3.8/library/unittest.html
 """
 
