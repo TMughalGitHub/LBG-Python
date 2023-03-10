@@ -7,5 +7,5 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 ENV PORT 8081
 EXPOSE ${PORT}
-RUN python -m unittest discover
+RUN python lbg.test.py
 CMD [ "python", "./lbg.py","--PORT","8081" ]
