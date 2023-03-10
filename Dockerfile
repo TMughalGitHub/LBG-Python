@@ -1,4 +1,4 @@
-FROM python:3 
+FROM python:3.10
 MAINTAINER Tahira Mughal 
 #install wget for maven
 RUN apt-get install -y wget
